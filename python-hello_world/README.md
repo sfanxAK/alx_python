@@ -1,13 +1,14 @@
 <p align="center">
-<img src="banner_readme.png" alt="Readme_banner"/>
+<img src="../banner_readme.png" alt="Readme_banner"/>
 </p>
-<h1>Python - Hello, World</h1>
-
-** Learning Objectives **
+<br>
+<h1 align="center">Python - Hello, World</h1>
+<br>
+<h2>Learning Objectives</h2>
 
 At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
 
-** General **
+<h3>General</h3>
 
 - Why Python programming is awesome
 - Who created Python
@@ -33,10 +34,11 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 - What’s a traceback
 - What are the arithmetic operators and how to use them
 
-** Requirements **
+<h2>Requirements</h2>
 
-- Python Scripts
-- Recommended editors: Visual studio code
+<h3>Python Scripts</h3>
+
+- Recommended editors: <img href="https://img.shields.io/badge/VSCode-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white" />
 - All your files will be interpreted/compiled on Ubuntu 20.04 LTS using python3 (version 3.4.3)
 - All your files should end with a new line
 - A ‘README.md‘ file at the root of the alx_python repo, containing a description of the repository

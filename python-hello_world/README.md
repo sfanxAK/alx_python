@@ -38,9 +38,11 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 
 <h3>Python Scripts</h3>
 
-- Recommended editors: <img href="https://img.shields.io/badge/VSCode-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white" />
-- All your files will be interpreted/compiled on Ubuntu 20.04 LTS using python3 (version 3.4.3)
+- Recommended editors: 
+<img style="padding-left:2px;" src="https://img.shields.io/badge/VSCode-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white" />
+- All your files will be interpreted/compiled on `Ubuntu 20.04 LTS` using
+<img style="padding-left:2px;" src="[https://img.shields.io/badge/VSCode-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white](https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue)" /> `(version 3.4.3)`
 - All your files should end with a new line
-- A ‘README.md‘ file at the root of the alx_python repo, containing a description of the repository
-- A ‘README.md‘ file, at the root of the folder of this project, is mandatory
-- The length of your files will be tested using wc
+- A `README.md` file at the root of the alx_python repo, containing a description of the repository
+- A `README.md` file, at the root of the folder of this project, is mandatory
+- The length of your files will be tested using `wc`

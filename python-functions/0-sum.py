@@ -4,4 +4,5 @@ b = int(input("Enter second digit: "))
 def add(a, b):
     return a + b
 
-print(a + b)
+result = add(a, b)
+print(result)

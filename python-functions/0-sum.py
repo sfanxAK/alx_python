@@ -1,10 +1,7 @@
 #Function that adds two integers and returns the result
+a = int(input("Enter first digit: "))
+b = int(input("Enter second digit: "))
 def add(a, b):
     return a + b
 
-result_1 = add(1, 2)
-print(result_1)
-result_2 = add(100, -2)
-print(result_2)
-result_3 = add(-100, -2)
-print(result_3)
+print(a + b)

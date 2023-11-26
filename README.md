@@ -1,5 +1,5 @@
 <p align="center">
-<img src="../banner_readme.png" alt="Readme_banner"/>
+<img src="./banner_readme.png" alt="Readme_banner"/>
 </p>
 <br>
 <h1 align="center">Python - Hello, World</h1>

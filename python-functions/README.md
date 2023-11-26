@@ -2,7 +2,7 @@
 <img src="../banner_readme.png" alt="Readme_banner"/>
 </p>
 <br>
-<h1 align="center">Python - Hello, World (WEEK 05 - PROJECT 15)</h1>
+<h1 align="center">Python - Functions (WEEK 05 - PROJECT 15)</h1>
 <br>
 
 <h2>Learning Objectives</h2>

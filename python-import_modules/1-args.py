@@ -1,17 +1,26 @@
 if __name__ == "__main__":
-  argument = input()
-  arguments = argument.split()
-  number_of_arguments = len(arguments)
+  import sys
 
-  if number_of_arguments > 0:
-      print(number_of_arguments,"arguments:")
-      for i, arg in enumerate(arguments, start=1):
-          print(f"{i}: {arg}")
-  else:
-      print(number_of_arguments,"arguments.")
+  def print_arguments():
+      # Get the command-line arguments
+      arguments = sys.argv[1:]
 
-  print("\nNumber of arguments:", number_of_arguments)
+      # Calculate the number of arguments
+      num_arguments = len(arguments)
 
+      # Print the number of arguments and appropriate pluralization
+      print(f"Number of argument{'s' if num_arguments != 1 else ''}: {num_arguments}", end='')
+
+      if num_arguments > 0:
+          print(", followed by:")
+          # Print each argument with its position
+          for i, arg in enumerate(arguments, start=1):
+              print(f"{i}: {arg}")
+      else:
+          print(".")
+
+  if __name__ == "__main__":
+      print_arguments()
 
 
 

@@ -3,22 +3,19 @@ import sys
 def print_arguments():
     arguments = sys.argv[1:]
     num_arguments = len(arguments)
-    
+    output_length = 0
 
-    if num_arguments > 0 and num_arguments == 1:
-        print(num_arguments,"argument: ")
+    if num_arguments > 0:
+        print(f"{num_arguments} argument{'s' if num_arguments != 1 else ''}:", end='')
         for i, arg in enumerate(arguments, start=1):
             print(f"{i}: {arg}")
-    elif num_arguments > 1:
-        print(num_arguments,"arguments: ")
-        for i, arg in enumerate(arguments, start=1):
-            print(f"{i}: {arg}")
+            output_length += len(f"{i}: {arg}\n")
     else:
-      print(num_arguments,"argument.")
-        
+          print(f"{num_arguments} argument.")
 
 if __name__ == "__main__":
     print_arguments()
+
 
 
 

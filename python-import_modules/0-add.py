@@ -1,6 +1,7 @@
-from add_0 import *
+if __name__ == "__main__":
+  a = 1
+  b = 2
+  from add_0 import *
 
-a = 1
-b = 2
-c = a + b
-print("{:d} + {:d} = {:d}".format(a, b, c))
+  c = a + b
+  print("{:d} + {:d} = {:d}".format(a, b, c))

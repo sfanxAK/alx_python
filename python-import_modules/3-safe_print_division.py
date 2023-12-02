@@ -11,10 +11,7 @@ def safe_print_division(a, b):
         else:
             print('{:d} / {:d} = None'.format(a, b))
 
-# Example usage
-a = int(input('Enter the numerator: '))
-b = int(input('Enter the denominator: '))
-safe_print_division(a, b)
+
 
 
 

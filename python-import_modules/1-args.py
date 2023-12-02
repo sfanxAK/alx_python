@@ -11,7 +11,7 @@ def print_arguments():
             print(f"{i}: {arg}")
             output_length += len(f"{i}: {arg}\n")
     else:
-          print(f"{num_arguments} argument.")
+          print(f"{num_arguments} arguments.")
 
 if __name__ == "__main__":
     print_arguments()

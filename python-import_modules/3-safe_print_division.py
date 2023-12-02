@@ -11,8 +11,3 @@ def safe_print_division(a, b):
             
 
 
-# Example usage
-
-a = int(input("Enter the numerator: "))
-b = int(input("Enter the denominator: "))
-safe_print_division(a, b)

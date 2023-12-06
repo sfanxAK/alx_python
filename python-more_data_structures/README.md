@@ -2,7 +2,7 @@
 <img src="../banner_readme.png" alt="Readme_banner"/>
 </p>
 <br>
-<h1 align="center">Python - More Data Structures: Set, Dictionary</h1>
+<h1 align="center">Python - More Data Structures: Set, Dictionary (WEEK 05 - PROJECT 18)</h1>
 <br>
 
 <h2>Learning Objectives</h2>

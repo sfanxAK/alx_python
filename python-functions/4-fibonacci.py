@@ -4,3 +4,4 @@ def fibonacci_sequence(n):
             next_numb = fibunacci[-1] + fibunacci[-2]
             fibunacci = fibunacci + [next_numb]
     return fibunacci[:n]
+print(fibonacci_sequence)

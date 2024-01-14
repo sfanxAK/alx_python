@@ -7,7 +7,7 @@ cursor = config_connect.cursor()
 
 state_name = argv[4]
 
-cursor.execute("SELECT * FROM states WHERE name = '{}' ORDER BY id ASC".format(argv[4]))
+query = ("SELECT * FROM states WHERE name = '{}' ORDER BY id ASC".format(argv[4]))
 
 cursor.execute(query, (state_name,))
 

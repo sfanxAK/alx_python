@@ -1,16 +1,18 @@
 from sys import argv
 import MySQLdb as Server
 
-config_connect = Server.connect(host="localhost", port=3306, user=argv[1], passwd=argv[2], database=argv[3])
+mysql_username, mysql_password, database_name, state_name = argv[1:]
+
+config_connect = Server.connect(host="localhost", port=3306, user=mysql_username, passwd=mysql_password, database=database_name)
 
 cursor = config_connect.cursor()
 
-cursor.execute("SELECT * FROM states WHERE name = '{}' ORDER BY id ASC".format(argv[4]))
-
+query = "SELECT * FROM states WHERE name = %s ORDER BY id ASC"
 cursor.execute(query, (state_name,))
 
 rows = cursor.fetchall()
 
 for row in rows:
     print(row)
+
 

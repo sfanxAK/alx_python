@@ -12,3 +12,7 @@ rows = cursor.fetchall()
 for row in rows:
     if row[1][0] == 'N':
         print(row)
+
+
+cursor.close()
+config_connect.close()

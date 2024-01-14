@@ -5,7 +5,7 @@ config_connect = Server.connect(host='localhost', port=3306, user=argv[1], passw
 
 cursor = config_connect.cursor()
 
-cursor.execute("SELECT * FROM  hbtn_0e_4_usa ORDER BY id ASC")
+cursor.execute("SELECT * FROM states AND cities ORDER BY id ASC")
 
 rows = cursor.fetchall()
 

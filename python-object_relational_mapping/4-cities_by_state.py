@@ -5,8 +5,7 @@ config_connect = Server.connect(host='localhost', port=3306, user=argv[1], passw
 
 cursor = config_connect.cursor
 
-query = "SELECT * FROM cities ORDER BY id ASC"
-cursor.execute(query)
+cursor.execute("SELECT * FROM cities ORDER BY id ASC")
 
 rows = cursor.fetchall()
 

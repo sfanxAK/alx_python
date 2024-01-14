@@ -5,7 +5,8 @@ config_connect = Server.connect(host="localhost", port=3306, user=argv[1], passw
 
 cursor = config_connect.cursor()
 
-cursor.execute("SELECT * FROM states WHERE name = '{}' ORDER BY id ASC".format(argv[4]))
+query = "SELECT * FROM states WHERE name = %s ORDER BY id ASC"
+cursor.execute(query, (argv[4],))
 
 rows = cursor.fetchall()
 

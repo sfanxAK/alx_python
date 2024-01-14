@@ -5,15 +5,10 @@ config_connect = Server.connect(host="localhost", port=3306, user=argv[1], passw
 
 cursor = config_connect.cursor()
 
-# Use parameterized query to avoid SQL injection
-query = "SELECT * FROM states WHERE name = %s ORDER BY id ASC"
-cursor.execute(query, (argv[4],))
+cursor.execute("SELECT * FROM states WHERE name = '{}' ORDER BY id ASC".format(argv[4]))
 
 rows = cursor.fetchall()
 
 for row in rows:
     if row[1][0] == 'N':
         print(row)
-
-    
-

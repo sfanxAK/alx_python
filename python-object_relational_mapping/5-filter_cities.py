@@ -13,8 +13,8 @@ cursor.execute(query, (argv[4],))
 
 rows = cursor.fetchall()
 
-for row in rows:
-    print(row[0])
+result = ', '.join(row[0] for row in rows)
+print(result)
 
 
 cursor.close()

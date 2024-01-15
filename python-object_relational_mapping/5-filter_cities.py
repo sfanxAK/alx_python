@@ -7,7 +7,9 @@ cursor = config_connect.cursor()
 
 query = '''SELECT cities.name FROM cities
           JOIN states ON cities.state_id = states.id
-          WHERE state_id = (SELECT id FROM states WHERE name = %s ORDER BY cities.id ASC'''
+          WHERE state_id = (SELECT id FROM states WHERE name = %s)
+          ORDER BY cities.id ASC'''
+
 
 cursor.execute(query, (argv[4],))
 

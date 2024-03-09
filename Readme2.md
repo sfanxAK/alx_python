@@ -2,6 +2,4 @@
 
 [![Linkedin](https://skillicons.dev/icons?i=linkedin&theme=light)](https://google.com)
 
-<p align="center">
-    <img src="https://ibb.co/2YXtTZ6" />
-</p>
+<a href="https://imgbb.com/"><img src="https://i.ibb.co/sJLwZWP/20858493021639586800-64.png" alt="20858493021639586800-64" border="0"></a>

@@ -2,4 +2,4 @@
 
 [![Linkedin](https://skillicons.dev/icons?i=linkedin&theme=light)](https://google.com)
 
-![icon](https://www.flaticon.com/free-icon/dna_14599291?term=biotechnology&page=4&position=66&origin=search&related_id=14599291)
+![test](https://www.freepik.com/icon/dna_5712612#fromView=search&page=1&position=8&uuid=30d1187d-24a6-484d-9142-834019e5090a)

@@ -3,7 +3,5 @@
 [![Linkedin](https://skillicons.dev/icons?i=linkedin&theme=light)](https://google.com)
 
 <p align="center">
-  <a href="#">
     <img src="https://ibb.co/2YXtTZ6" />
-  </a>
 </p>
